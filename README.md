@@ -1,6 +1,12 @@
 ZBAR BAR CODE READER
 ====================
 
+This is a modified Zbar of version 0.10, making it only decoding in UTF-8.
+
+The approach is naive, but seems to be working.
+
+If you think there is a better way, please raise an issue/PR. :)
+
 ZBar Bar Code Reader is an open source software suite for reading bar
 codes from various sources, such as video streams, image files and raw
 intensity sensors. It supports EAN-13/UPC-A, UPC-E, EAN-8, Code 128,
